@@ -1,0 +1,18 @@
+{
+  "name": "mathserver",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrii Tkach",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "math-expression-evaluator": "^1.2.17",
+    "path": "^0.12.7",
+    "socket.io": "^2.0.4"
+  }
+}
